@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+        <meta name="description" content="Bu, temel bir HTML şablonudur.">
+        <title>Form Örneği</title>
+        <style>
+            .formOzellik{
+                width: 420px;
+                height: 380px;
+                background-color: rgb(230, 173, 213);
+                margin:0 auto;
+                align-self: center;
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="formOzellik">
+            <h1 style="text-align: center;">Kayıt Formu</h1>
+        <form>
+            <table>
+                <tr><!--satır-->
+                    <td>Adınız : </td><!--sütun-->
+                    <td><input type="text" name="ad" placeholder="adınız"></td>
+                </tr>
+                <tr>
+                    <td>Soyadınız</td>
+                    <td><input type="text" name="soyad" placeholder="soyadınız"></td>
+                </tr>
+                <tr>
+                    <td>Mail Adresiniz : </td>
+                    <td><input type="email" name="mail" placeholder="@mail.com"></td>
+                </tr>
+                <tr>
+                    <td>Şifreniz : </td>
+                    <td><input type="password" name="şifre" placeholder="**********"></td>
+
+                </tr>
+                <tr>
+                    <td>Cinsiyet</td>
+                    <td><input type="radio" name="cinsiyet" value="kadın"> Kadın </td><br>
+                    <td><input type="radio" name="cinsiyet" value="erkek"> Erkek </td><br>
+
+                </tr>
+                <tr>
+                    <td>Doğum Tarihinizi Seçiniz</td>
+                    <td><input type = "date" name="dogum_tarihi"></td>
+                </tr>
+
+                <tr>
+                    <th>Hobilerin Neler?</th>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="hobiler" value="kitap"> Kitap</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="hobiler" value="spor"> Spor</td>
+                </tr>    
+                <tr>
+                    <td><input type="checkbox" name="hobiler" value="müzik"> Müzik</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Gönder" style="margin-right: 5px;"></td>
+                    <td><input type="reset" value="Temizle"></td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
+
+
+       
+</html>

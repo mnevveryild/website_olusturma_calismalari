@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+        <meta name="description" content="Bu, temel bir HTML şablonudur.">
+        <title>Form Etiketi Örneği</title>
+    </head>
+
+    <body>
+
+        <form>
+            <table>
+                <tr>
+                    
+                    Adınız: <input type="text" name="ad" placeholder="Adınız">
+                    Şifreniz: <input type="password" name="şifre" placeholder="**********">
+                    Mail Adresiniz: <input type="email" name="mail" placeholder="@mail.com">
+                    Seçenekler: <br><input type="checkbox" id="kitap"> Kitap<br>
+                    <!-- checkbox birden fazla seçenek sunarken radio tek bir seçenek sunar -->
+                    <input type="checkbox" id="dergi"> Dergi<br><!-- birden fazla seçenek-->
+                    <input type="checkbox" id="gazete"> Gazete<br>
+
+                    Kadın <input type="radio" name="cinsiyetradio"><br> <!-- tek bir seçenek seçebilmek için-->
+                    Erkek <input type="radio" name="cinsiyetradio"><br>
+                    <!--dosya seçimi-->
+                    <input type="file"><br><br>
+                    <!-- textarea çok satırlı metin girişi için kullanılır -->
+                    <textarea name="yorum" rows="5" cols="30" placeholder="Yorumunuz..."></textarea><br><br>
+                    <!-- select ve option etiketleri dropdown menü oluşturmak için kullanılır -->
+                    İçecekler:
+                    <select name="icecekler" id="icecekler">
+                        <option value="su">Su</option>
+                        <option value="kola">Kola</option>
+                        <option value="meyve suyu">Meyve Suyu</option>
+                    </select><br><br>
+                    <!-- submit ve reset butonları -->
+                    <input type="submit" value="Seç">  
+                    <input type="reset" value="Temizle"> <!-- formun içinde olmak zorundadır -->
+                </tr>
+            </table>
+
+
+        </form>
+
+
+
+
+
+    </body>
+</html>
